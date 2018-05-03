@@ -198,7 +198,7 @@ function build_a_tx(data, pos) {
 	var id = '-';
 	if (data && data.value && data.value.owner && data.value.owner.username) {
 		username = data.value.owner.username;
-		company = data.value.owner.company;
+		company = 'USAA';//data.value.owner.company;
 		id = data.value.owner.id;
 	}
 
